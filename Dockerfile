@@ -47,7 +47,7 @@ RUN pip install --no-cache-dir -U pip setuptools wheel \
     requests \
     flask \
     waitress
-
+EXPOSE 1337/tcp
 # ──────────────────────────────────────────────
 #  Runtime environment variables
 # ──────────────────────────────────────────────
